@@ -1,0 +1,62 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartHomeHub</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h1>SmartHomeHub</h1>
+    </header>
+
+    <section class="section">
+      <h2>Dispositivos</h2>
+      <ul class="device-list" id="deviceList">
+        <!-- Aquí se agregarán dinámicamente los elementos de la lista de dispositivos -->
+      </ul>
+      <button onclick="addDevice()">Agregar Dispositivo</button>
+    </section>
+
+    <section class="section">
+      <h2>Usuarios</h2>
+      <ul class="user-list" id="userList">
+        <!-- Aquí se agregarán dinámicamente los elementos de la lista de usuarios -->
+      </ul>
+      <button onclick="addUser()">Agregar Usuario</button>
+    </section>
+  </div>
+
+  <script>
+    // Funciones JavaScript
+
+    function addDevice() {
+      const deviceList = document.getElementById('deviceList');
+      const deviceId = prompt('Ingrese el ID del dispositivo:');
+      const deviceName = prompt('Ingrese el nombre del dispositivo:');
+      const deviceType = prompt('Ingrese el tipo del dispositivo:');
+
+      const li = document.createElement('li');
+      li.textContent = `ID: ${deviceId}, Nombre: ${deviceName}, Tipo: ${deviceType}`;
+      deviceList.appendChild(li);
+    }
+
+    function addUser() {
+      const userList = document.getElementById('userList');
+      const userId = prompt('Ingrese el ID del usuario:');
+      const userName = prompt('Ingrese el nombre del usuario:');
+      const userEmail = prompt('Ingrese el correo electrónico del usuario:');
+
+      const li = document.createElement('li');
+      li.textContent = `ID: ${userId}, Nombre: ${userName}, Correo: ${userEmail}`;
+      userList.appendChild(li);
+    }
+  </script>
+
+</body>
+</html>
