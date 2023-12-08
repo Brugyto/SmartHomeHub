@@ -1,0 +1,18 @@
+SmartHomeHub/
+|-- 📂 src/
+|   |-- 📄 index.js
+|   |-- 📂 controllers/
+|   |   |-- 📄 deviceController.js
+|   |   |-- 📄 userController.js
+|   |-- 📂 models/
+|   |   |-- 📄 DeviceModel.js
+|   |   |-- 📄 UserModel.js
+|-- 📂 public/
+|   |-- 📂 styles/
+|   |   |-- 📄 main.css
+|   |-- 📄 index.html
+|-- 📄 .gitignore
+|-- 📄 package.json
+|-- 📄 README.md
+|-- 📄 LICENSE
+|-- 📄 CONTRIBUTING.md
