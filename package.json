@@ -5,25 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-    // Puedes agregar más scripts según tus necesidades
+
   },
   "keywords": [
     "smart home",
     "iot",
     "home automation"
-    // Agrega palabras clave relevantes para tu aplicación
+
   ],
   "author": "Tu Nombre",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    // Puedes agregar más dependencias según las necesidades de tu aplicación
+    "cors": "^2.8.5"
+
   },
   "devDependencies": {
-    // Agrega las dependencias de desarrollo si es necesario
+
     "nodemon": "^2.0.15"
-    // Otras dependencias de desarrollo
+
   }
 }
