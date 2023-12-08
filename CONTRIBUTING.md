@@ -5,7 +5,7 @@
 ## Cómo contribuir
 
 1. Haz un fork del repositorio.
-2. Clona tu fork localmente: `git clone https://github.com/TuUsuario/SmartHomeHub.git`
+2. Clona tu fork localmente: `git clone https://github.com/Brugyto/SmartHomeHub.git`
 3. Crea una nueva rama para tus cambios: `git checkout -b feature/nueva-funcionalidad`
 4. Realiza tus cambios y haz commit: `git commit -m 'Añade nueva funcionalidad'`
 5. Sube tus cambios a tu fork: `git push origin feature/nueva-funcionalidad`
